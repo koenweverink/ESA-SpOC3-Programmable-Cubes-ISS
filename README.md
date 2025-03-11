@@ -70,9 +70,9 @@ The animation module replays the final solution move-by-move starting from the i
    Place the required `.npy` files and `ISS.json` in the expected directories (`data/ISS/` and `problems/` respectively).
 
 3. **Run the Solver:**  
-   Execute the integrated solver script (e.g., via Jupyter Notebook or directly as a Python script):
+   Execute the integrated solver script:
    ```bash
-   python final_solution_ISS.py
+   python final_solution_ISS.ipynb
    ```
 
     This will generate the greedy solution, refine it with iterative lookahead extension, and polish it with BFS/A* search. The final solution is saved as `final_solution.npy`.
