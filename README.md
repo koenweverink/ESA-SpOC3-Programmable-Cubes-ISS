@@ -73,6 +73,7 @@ The animation module replays the final solution move-by-move starting from the i
    Execute the integrated solver script (e.g., via Jupyter Notebook or directly as a Python script):
    ```bash
    python final_solution_ISS.py
+   ```
 
     This will generate the greedy solution, refine it with iterative lookahead extension, and polish it with BFS/A* search. The final solution is saved as `final_solution.npy`.
 
